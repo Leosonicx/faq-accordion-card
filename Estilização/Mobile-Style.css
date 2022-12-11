@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ background-color: #B068E9;
+ position: relative;
+}
+
+main {
+  margin: auto;
+  margin-top: 13em;
+  margin-bottom: 3em;
+  max-width: 800px;
+  width: 90%;
+  background-color: #FFF;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+}
+
+.ilustracao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5em;
+  margin-left: -1em;
+}
+
+#sombra {
+  position: relative;
+  top: -95px;
+  margin-top: -5.5em;
+  margin-left: 1em;
+  width: 240px;
+}
+
+#caixa {
+  display: none;
+}
+
+.faq-secao {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Kumbh Sans';
+  margin-top: -100px;
+}
+
+h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.faq-seta {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  border-top: 0.1px solid rgba(114, 94, 94, 0.3);
+}
+
+.faq-botao {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  z-index: 5;
+}
+
+h2 {
+  width: 100%;
+  font-size: 0.9rem;
+  line-height: 16px;
+  font-weight: 700;
+  color: #1E1F36;
+}
+
+img {
+  transform: 0.5s ease;
+  width: 4%;
+}
+
+#ilustra {
+  position: relative;
+  top: -105px;
+  width: 236.85px;
+  left: 10px;
+}
+
+.faq-resposta {
+  width: 100%;
+  font-size: 0.9rem;
+  color: #787887;
+  font-family: 'Kumbh Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  transition: 1s ease;
+  margin: 0.5em;
+  margin-left: 0;
+}
