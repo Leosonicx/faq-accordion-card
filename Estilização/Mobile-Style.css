@@ -4,8 +4,8 @@ body {
  padding: 0;
  margin: 0;
  box-sizing: border-box;
- background-color: #B068E9;
  position: relative;
+ background-image: linear-gradient(to right, #B068E9 , #6463E7);
 }
 
 main {
@@ -66,7 +66,12 @@ h1 {
   width: 100%;
   flex-direction: row;
   align-items: center;
-  z-index: 5;
+  z-index: 4;
+}
+
+.arrow {
+  position: relative;
+  top: -10px;
 }
 
 h2 {
@@ -100,4 +105,5 @@ img {
   transition: 1s ease;
   margin: 0.5em;
   margin-left: 0;
+  display: none;
 }

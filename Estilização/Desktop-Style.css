@@ -1,0 +1,65 @@
+body {
+  position: inherit;
+  background-image: linear-gradient(to right, #B068E9 , #6463E7);
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em;
+  top: 50%;
+  left: 50%;
+}
+
+.faq-secao {
+  margin: 0;
+}
+
+.titulo { 
+  margin-bottom: 30px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.ilustracao {
+  position: relative;
+  width: 50%;
+  margin-top: 0em;
+  margin-right: 5em;
+  margin-left: -5em;
+}
+
+#ilustra {
+  position: fixed;
+  width: 350px;
+  top: 115px;
+  left: 198px;
+}
+
+#sombra {
+  position: fixed;
+  margin-top: 0em;
+  margin-left: 1em;
+  width: 350px;
+  top: 265px;
+  left: 180px;
+}
+
+#caixa {
+  display: block;
+  position: fixed;
+  top: 210px;
+  left: 190px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.faq-seta img {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
