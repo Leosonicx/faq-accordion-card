@@ -1,1 +1,0 @@
-const seta = document.querySelector('.arrow')
